@@ -1,0 +1,15 @@
+
+# Override the port Tomcat listens on
+server:
+  port: 9000
+logging:
+  level:
+    introduction10: DEBUG
+management:
+  endpoint:
+    metrics:
+      enabled: true # enable an endpoint does not expose it
+  endpoints:
+    web:
+      exposure:
+        include: metrics # expose an endpoint
