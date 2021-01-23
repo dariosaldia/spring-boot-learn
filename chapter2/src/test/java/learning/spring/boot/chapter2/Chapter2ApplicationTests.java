@@ -3,7 +3,7 @@ package learning.spring.boot.chapter2;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class Chapter2ApplicationTests {
 
 	@Test
